@@ -1,0 +1,62 @@
+#include <stdio.h>
+
+
+int main (){
+//Cherilus Sam Bracley
+//cherilussambracley@gmail.com
+//Instagram:tech5_09
+
+
+
+printf("Odd or Even ??? \n");
+
+//in this script the user is inside a loop and can go outside of this or break it, only by adding a odd number 
+
+
+int user_value;
+
+
+
+scanf("%d", &user_value);
+
+
+
+    if(user_value > 0){
+        printf("Odd number \n");
+    }
+
+
+else{
+    printf("Even number \n");
+
+    int i=0;
+
+    while(5>i){
+
+         printf("Insert a number in order to know if it is an odd or even number \n");
+         scanf("%d", &user_value);
+         i=i++;
+
+
+          if(user_value > 0){
+          printf("Odd number");
+          break;
+    }
+
+
+
+
+        
+    }
+
+
+}
+    
+
+
+
+
+    return 0;
+
+}
+ 
